@@ -85,7 +85,12 @@
 	width:90%;
 	margin-top: 100px;
 }
-
+.news_post{
+	margin-left:5%;
+	margin-right:5%;
+	width:90%;
+	margin-top: 50px;
+}
 .paragraph{
 	word-wrap:break-word;
 }
