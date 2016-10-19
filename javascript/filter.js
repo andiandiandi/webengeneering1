@@ -7,5 +7,4 @@ var filter = function(){
 				 posts[post].style.display = 'none';
 			else
 				posts[post].style.display = 'block';
-
 };

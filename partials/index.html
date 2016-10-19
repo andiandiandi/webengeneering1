@@ -10,39 +10,52 @@
 
     <header>
         <div class="clearfix">
-            <div class="column_70">
+            <div class="column_70 left">
                 <div style="width:30%;float:left">
                     <img src="http://www.makeawebsiteguru.com/wp-content/uploads/2015/04/html-1024x768.jpg" alt="logo" width="150px" height="150px" />
                 </div style="width:70%;float:left;">
                 <span style="display:inline-block;font-size:320%;font-weight:bold;">Up to date with web development</span>
             </div>
-            <div class="column_30">
+            <div class="column_30" style="float:left">
                 <a class="button_green" href="file:///C:/Users/Andi/Documents/GitHub/webengeneering1/partials/login.html">Log in</a>
                 <a class="button_blue" href="file:///C:/Users/Andi/Documents/GitHub/webengeneering1/partials/register.html">Sign Up</a>
             </div>
         </div>
     </header>
 
+    
     <section class="clearfix">
-        <img src="http://blog.headframe.de/wordpress/wp-content/uploads/2016/03/blog.jpg" style="width:100%;" height=300px>
+        <img src="http://blog.headframe.de/wordpress/wp-content/uploads/2016/03/blog.jpg" style="width:80%;margin-left:10%;margin-right:10%" height=300px>
 
 
 
         <br>
-        <div style="width:70%;margin-left:30%;">
-            <input class="search" id="searchbar" type="text" name="searchbar" placeholder="Search Blog . . ."  onkeyup="filter()">
-
+        <div style="width:70%;margin-right:30%;">
+        <div>
+        	<label class="searchlabel" style="font-size: 200%">Filter Blog Posts:</label>
+         </div>
+         <div>
+         	<input class="searchbar" id="searchbar" type="text" name="searchbar" placeholder="Search Blog . . ."  onkeyup="filter()">
+         </div>
         </div>
     </section>
 
-
-    <aside class="column_30">
+    <div class="page_content clearfix">
+      <aside class="column_40 right">
     <div>
     	<h1 style="text-align: center;font-size:300%">Latest News</h1>
-
     </div>
-  		<div class="news_post clearfix">
-            <a href="file:///C:/Users/Andi/Documents/GitHub/webengeneering1/partials/angular.html"><h1>Angular 2 is out!</h1></a>
+
+    
+    	<div class="left clearfix">
+    		<img src="https://www.klonblog.com/images/2012/01/fastfoodvsreality-klonblog05.jpg" height="200px" width="300px">
+    		<img src="https://www.klonblog.com/images/2012/01/fastfoodvsreality-klonblog05.jpg" height="200px" width="300px">
+    		<img src="https://www.klonblog.com/images/2012/01/fastfoodvsreality-klonblog05.jpg" height="200px" width="300px">
+    		<img src="https://www.klonblog.com/images/2012/01/fastfoodvsreality-klonblog05.jpg" height="200px" width="300px">
+    	</div>
+    	<section style="height:300px;overflow: scroll">
+  		<div class="news_post right" >
+            <div class="news_header"><a href="file:///C:/Users/Andi/Documents/GitHub/webengeneering1/partials/angular.html"><h1>Angular 2 is out!</h1></a></div>
             <div class="content">
                 <div class="column_10" style="margin-left:20px">
                  </div>
@@ -56,8 +69,8 @@
                 </div>
             </div>
         </div>
-        <div class="news_post clearfix">
-            <a href="file:///C:/Users/Andi/Documents/GitHub/webengeneering1/partials/angular.html"><h1>Bootstrap 4 release... soon</h1></a>
+        <div class="news_post right">
+            <div class="news_header"><a href="file:///C:/Users/Andi/Documents/GitHub/webengeneering1/partials/angular.html"><h1>Bootstrap 4 release... soon</h1></a></div>
             <div class="content">
                 <div class="column_10" style="margin-left:20px">
                  </div>
@@ -71,8 +84,8 @@
                 </div>
             </div>
         </div>
-        <div class="news_post clearfix">
-            <a href="file:///C:/Users/Andi/Documents/GitHub/webengeneering1/partials/angular.html"><h1>react.js in 2017</h1></a>
+        <div class="news_post right">
+            <div class="news_header"><a href="file:///C:/Users/Andi/Documents/GitHub/webengeneering1/partials/angular.html"><h1>react.js in 2017</h1></a></div>
             <div class="content">
                 <div class="column_10" style="margin-left:20px">
                  </div>
@@ -87,16 +100,18 @@
             </div>
         </div>
 
+        </section>
     </aside>
 
-    <section class="column_70">
-		<div class="blog_post clearfix" style="background-color:#D5E7ED">
-            <a href="file:///C:/Users/Andi/Documents/GitHub/webengeneering1/partials/angular.html"><h1 style="background-color:#AAE0F2;font-size:200%;">no follow up after Html 5?</h1></a>
-            <div class="content">
-                <div class="column_20" style="margin-left:20px">
-                  <img src="https://thenewboston.com/images/forum/logos/145efe2aab7ca9959397d6344180b658.png" alt="learn about angular 2" height="200px"/>
+
+    <section class="column_60 right">
+		<div class="blog_post clearfix">
+            <a href="file:///C:/Users/Andi/Documents/GitHub/webengeneering1/partials/angular.html"><h1 style="font-size:200%;">No follow up after Html 5?</h1></a>
+            <div>
+                <div class="column_20 left left_margin_10">
+                  <img src="https://thenewboston.com/images/forum/logos/145efe2aab7ca9959397d6344180b658.png" alt="learn about angular 2" width="100%" height="200px"/>
                 </div>
-                <div class="column_70" style="word-wrap: break-word;">
+                <div class="column_70 left left_margin_10" style="word-wrap: break-word;">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -106,13 +121,13 @@
                 </div>
             </div>
         </div>
-    	<div class="blog_post clearfix" style="background-color:#D5E7ED">
-            <a href="file:///C:/Users/Andi/Documents/GitHub/webengeneering1/partials/angular.html"><h1 style="background-color:#AAE0F2;font-size:200%;">Learn about Angular 2</h1></a>
-            <div class="content">
-                <div class="column_20" style="margin-left:20px">
-                  <img src="http://1.bp.blogspot.com/-eiRkvPEafsA/Vgk0YsW9K4I/AAAAAAAAA4g/0X2djtLXwzw/s1600/vQv9AxqM.png" alt="learn about angular 2" height="200px"/>
+    	<div class="blog_post clearfix">
+            <a href="file:///C:/Users/Andi/Documents/GitHub/webengeneering1/partials/angular.html"><h1 style="font-size:200%;">Learn about Angular 2</h1></a>
+            <div>
+                <div class="column_20 left left_margin_10"">
+                  <img src="http://1.bp.blogspot.com/-eiRkvPEafsA/Vgk0YsW9K4I/AAAAAAAAA4g/0X2djtLXwzw/s1600/vQv9AxqM.png" alt="learn about angular 2" width="100%" height="200px"/>
                 </div>
-                <div class="column_670" style="word-wrap: break-word;">
+                <div class="column_70 left left_margin_10" style="word-wrap: break-word;">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -122,13 +137,13 @@
                 </div>
             </div>
         </div>
-        <div class="blog_post clearfix" style="background-color:#D5E7ED">
-            <a href="file:///C:/Users/Andi/Documents/GitHub/webengeneering1/partials/angular.html"><h1 style="background-color:#AAE0F2;font-size:200%;">10 tricks for fast css3 development</h1></a>
-            <div class="content">
-                <div class="column_20" style="margin-left:20px">
-                  <img src="https://www.viewlike.us/wp-content/uploads/2013/04/css3-markup.jpg" alt="learn about angular 2" height="200px"/>
+        <div class="blog_post clearfix">
+            <a href="file:///C:/Users/Andi/Documents/GitHub/webengeneering1/partials/angular.html"><h1 style="font-size:200%;">10 tricks for fast css3 development</h1></a>
+            <div>
+                <div class="column_20 left left_margin_10">
+                  <img src="https://www.viewlike.us/wp-content/uploads/2013/04/css3-markup.jpg" alt="learn about angular 2" width="100%" height="200px"/>
                 </div>
-                <div class="column_70" style="word-wrap: break-word;">
+                <div class="column_70 left left_margin_10" style="word-wrap: break-word;">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -140,9 +155,12 @@
         </div>
     </section>
 
+   
     <footer>
 
     </footer>
+    </div>
+
 
     <script type="text/javascript" src="file:///C:/Users/Andi/Documents/GitHub/webengeneering1/javascript/filter.js"></script>
 
